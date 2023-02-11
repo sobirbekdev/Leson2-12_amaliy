@@ -6,17 +6,29 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 500px;
-    height: 500px;
+    flex-direction: column;
+    width: 100%;
     margin: 0 auto;
 
+}
+ul{
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  gap: 15px;
+}
+ul li{
+    list-style-type: none;
+    color: #fff;
+    max-width: 250px;
+   
 }
 
 .lds-heart {
     display: inline-block;
     position: relative;
-    width: 300px;
-    height:300px;
+    width: 100px;
+    height:100px;
     transform: rotate(45deg);
     transform-origin: 40px 40px;
 }
